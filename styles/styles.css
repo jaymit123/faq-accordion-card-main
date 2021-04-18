@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+:root {
+  /* typography */
+  --color-text-primary: hsl(238, 29%, 16%);
+  --color-text-active: hsl(14, 88%, 65%);
+  --color-text-neutral-dark: hsl(237, 12%, 33%);
+  --color-text-neutral: hsl(240, 6%, 50%);
+  /* Dividers*/
+  --color-divider-primary: hsl(240, 5%, 91%);
+  /* FAQ Background */
+  --color-faq-background: white;
+  /* Body Background color */
+  --color-body-top: hsl(273, 75%, 66%);
+  --color-body-bottom: hsl(240, 73%, 65%);
+  --color-body-gradient: linear-gradient(to bottom right, var(--color-body-top) , var(--color-body-bottom));
+}
+
+body {
+  background: var(--color-body-gradient);
+}
+
+:root {
+  --font-family-primary: "Kumbh Sans";
+  --font-family-secondary: sans-serif;
+  --text-base-size: 12px;
+  --text-scale-ratio: 1.2;
+  --text-weight-heading: 700;
+  --text-weight-paragraph: 400;
+  --text-xs: calc(1em / (var(--text-scale-ratio) * var(--text-scale-ratio)));
+  --text-sm:calc(1em / var(--text-scale-ratio));
+  --text-md: calc(1em * var(--text-scale-ratio));
+  --text-lg:calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xxxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+}
+
+html, body {
+  font-size: var(--text-base-size);
+  font-family: var(--font-family-primary);
+  color: var(--color-text-primary);
+}
+
+h1, h2, h3, h4 {
+  color: var(--color-text-primary);
+}
+
+.text-xxxl {
+  font-size: var(--text-xxl);
+}
+
+h1, .text-xxl {
+  font-size: var(--text-xxl);
+}
+
+h2, .text-xl {
+  font-size: var(--text-xl);
+}
+
+h3, .text-lg {
+  font-size: var(--text-lg);
+}
+
+h4, .text-md {
+  font-size: var(--text-md);
+}
+
+.text-sm {
+  font-size: var(--text-sm);
+}
+
+.text-xs {
+  font-size: var(--text-xs);
+}
+
+h1 {
+  font-weight: var(--text-weight-heading);
+}
+
+p {
+  font-weight: var(--text-weight-paragraph);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq {
+  flex-basis: 50vh;
+  background: var(--color-faq-background);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.faq__avatar {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.faq__avatar__illustration {
+  background: url("../images/illustration-woman-online-mobile.svg");
+  width: 266px;
+  height: 196px;
+  position: absolute;
+  bottom: 3.25em;
+  right: calc(calc(50% - 133px) + 15px);
+}
+
+.faq__avatar__bg {
+  background: url("../images/bg-pattern-mobile.svg");
+  width: 240px;
+  height: 104px;
+  bottom: 2.25em;
+  left: calc(calc(50% - 120px));
+  position: relative;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=styles.css.map */

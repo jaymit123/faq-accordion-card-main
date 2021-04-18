@@ -1,0 +1,74 @@
+@use './colors' as *;
+@use './typography' as *;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq {
+  flex-basis: 50vh;
+  background: var(--color-faq-background);
+  border-radius:  15px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.faq__avatar {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+.faq__avatar__illustration {
+  background: url("../images/illustration-woman-online-mobile.svg");
+  width: 266px;
+  height: 196px;
+  position: absolute;
+  bottom: 3.25em;
+  right: calc(calc(50% - 133px) + 15px) ;
+}
+.faq__avatar__bg {
+  background: url("../images/bg-pattern-mobile.svg");
+  width: 240px;
+  height: 104px;
+  bottom: 2.25em;
+  left: calc(calc(50% - 120px));
+  position: relative;
+}
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -92,8 +92,12 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Gradients in CSS](https://css-tricks.com/css3-gradients/) - Learnt about graidents in CSS
+- [Using Gradients with SCSS](https://medium.com/@alvaro.saburido/applying-gradient-trends-in-sass-cf825d70f5fe) - Using SCSS with Linear Gradients
+- [Colors in design systems](https://medium.com/codyhouse/create-your-design-system-part-3-colors-798e4729921f) - How to manage colors in your web projects
+- [Variables in CSS vs SASS](https://css-tricks.com/difference-between-types-of-css-variables/) - Difference between SASS and CSS Variables
+- [Details HTML5 Tag for Accordions and its drawbacks](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) - Introduction to HTML5 implementation of Accordion, has styling limitations but has a lot of capabilities to be considered for future implementation. is A11y compliant.
+
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

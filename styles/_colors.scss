@@ -1,0 +1,25 @@
+:root {
+
+
+    /* typography */
+    --color-text-primary: hsl(238, 29%, 16%);
+    --color-text-active: hsl(14, 88%, 65%);
+    --color-text-neutral-dark: hsl(237, 12%, 33%);
+    --color-text-neutral: hsl(240, 6%, 50%);
+
+    /* Dividers*/
+    --color-divider-primary:  hsl(240, 5%, 91%);
+
+    /* FAQ Background */
+    --color-faq-background: white;
+    
+/* Body Background color */
+--color-body-top: hsl(273, 75%, 66%);
+--color-body-bottom: hsl(240, 73%, 65%);
+--color-body-gradient: linear-gradient(to bottom right, var(--color-body-top) , var(--color-body-bottom));
+
+}
+
+body {
+    background: var(--color-body-gradient);
+}
