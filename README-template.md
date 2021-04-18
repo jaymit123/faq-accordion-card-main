@@ -62,27 +62,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+1. Using Absolute child element in relative parent
+2. Context stacking with abolute and relative element - Z-Index 
+3. Using percentages to center child component
+4. Creating Accordion without JS
+5. Color and Typography in SCSS
+6. Gradients in SCSS
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
@@ -97,10 +85,13 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Colors in design systems](https://medium.com/codyhouse/create-your-design-system-part-3-colors-798e4729921f) - How to manage colors in your web projects
 - [Variables in CSS vs SASS](https://css-tricks.com/difference-between-types-of-css-variables/) - Difference between SASS and CSS Variables
 - [Details HTML5 Tag for Accordions and its drawbacks](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) - Introduction to HTML5 implementation of Accordion, has styling limitations but has a lot of capabilities to be considered for future implementation. is A11y compliant.
+- [Create Accordion without JS](https://stackoverflow.com/questions/13630229/can-i-have-an-onclick-effect-in-css) - Great learning on how to implement Accordions withou JS
 
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
+- [Rotate Background using Transform](https://www.sitepoint.com/css3-transform-background-image/)
+- [nesting pesudo elements in SCSS](https://marksheet.io/sass-nesting.html)
+- [Centering SVG Inside DIV](https://stackoverflow.com/questions/41822510/center-an-svg-inside-a-div) - Important one to center Avatar on top of FAQ card
+- [Guide on using Calc CSS](https://css-tricks.com/a-complete-guide-to-calc-in-css/)
+- [Why doesnt percentage work in height](https://stackoverflow.com/questions/5657964/css-why-doesn-t-percentage-height-work)
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)

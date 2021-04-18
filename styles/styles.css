@@ -99,21 +99,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 8rem;
+  width: 100%;
 }
 
 .faq {
-  flex-basis: 50vh;
+  flex-basis: 50%;
   background: var(--color-faq-background);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 2em;
 }
 
 .faq__avatar {
   position: relative;
   width: 100%;
-  margin: 0 auto;
 }
 
 .faq__avatar__illustration {
@@ -130,8 +132,51 @@ body {
   width: 240px;
   height: 104px;
   bottom: 2.25em;
-  left: calc(calc(50% - 120px));
+  left: calc(50% - 120px);
   position: relative;
+}
+
+.faq__title {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.faq__questions {
+  width: 100%;
+}
+
+.accordion__checkbox {
+  display: none;
+}
+.accordion__checkbox + .accordion__title {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--color-divider-primary);
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-text-neutral-dark);
+}
+.accordion__checkbox + .accordion__title > .accordion__arrow {
+  background: url("../images/icon-arrow-down.svg");
+  width: 10px;
+  height: 7px;
+}
+.accordion__checkbox + .accordion__title + .accordion__content {
+  display: none;
+  width: 100%;
+}
+.accordion__checkbox:checked + .accordion__title {
+  border-bottom: none;
+  font-weight: var(--text-weight-heading);
+}
+.accordion__checkbox:checked + .accordion__title > .accordion__arrow {
+  transform: rotate(180deg);
+}
+.accordion__checkbox:checked + .accordion__title + .accordion__content {
+  display: block;
+  padding: 0.5rem 0 1rem 0;
+  border-bottom: 1px solid var(--color-divider-primary);
+  color: var(--color-text-neutral);
+  font-weight: var(--text-weight-paragraph);
 }
 
 .attribution {
