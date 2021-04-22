@@ -14,7 +14,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -30,15 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -52,31 +45,30 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- SCSS
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
 1. Using Absolute child element in relative parent
 2. Context stacking with abolute and relative element - Z-Index 
-3. Using percentages to center child component
+3. Using percentages to center child component (shouldn not be relied on though)
 4. Creating Accordion without JS
 5. Color and Typography in SCSS
 6. Gradients in SCSS
+7. Setting the css by different screen size rather then percentages, makes things easier. dont rely on calc function to much for responsiveness
+8. Dont use vh for setting height of main components, instead use rem to make sure its value is same
+
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Refine responsive CSS across different height for same width. Eg ipad pro, has different height then desktop browser.
+Manage height of components using vh or percentage or fixed ?
 
 ### Useful resources
 
@@ -92,16 +84,13 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Centering SVG Inside DIV](https://stackoverflow.com/questions/41822510/center-an-svg-inside-a-div) - Important one to center Avatar on top of FAQ card
 - [Guide on using Calc CSS](https://css-tricks.com/a-complete-guide-to-calc-in-css/)
 - [Why doesnt percentage work in height](https://stackoverflow.com/questions/5657964/css-why-doesn-t-percentage-height-work)
+- [Scoping variables in BEM](https://css-tricks.com/using-sass-control-scope-bem-naming/)
+- [a CSS Only Solution to :hover on Touchscreens](https://dzone.com/articles/finally-a-css-only-solution-to-hover-on-touchscree)
+- [SASS Media Queries](https://css-tricks.com/approaches-media-queries-sass/)
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Jaymit Desai](https://www.jaymitdesai.com)
+- Frontend Mentor - [@jaymitd](https://www.frontendmentor.io/profile/jaymitd)
+- Github - [@jaymit123](https://github.com/jaymit123)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
